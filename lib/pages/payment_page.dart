@@ -26,61 +26,8 @@ class _PaymentMainPageState extends State<PaymentMainPage> {
             Expanded(
               flex: 12,
               child: Container(
-                // decoration: BoxDecoration(
-                //   color: Colors.white,
-                //   borderRadius: BorderRadius.only(
-                //     topLeft: Radius.circular(16),
-                //     topRight: Radius.circular(16),
-                //   ),
-                // ),
                 child: ListView(
                   children: [
-                    // Container(
-                    //   padding: EdgeInsets.all(16),
-                    //   margin: EdgeInsets.all(16),
-                    //   height: 64,
-                    //   decoration: BoxDecoration(
-                    //       color: Colors.orange[100],
-                    //       borderRadius: BorderRadius.circular(16)),
-                    //   child: Row(
-                    //     children: [
-                    //       Icon(
-                    //         Icons.location_on,
-                    //         color: Colors.red,
-                    //       ),
-                    //       Padding(
-                    //         padding: const EdgeInsets.symmetric(horizontal: 16),
-                    //         child: Column(
-                    //           crossAxisAlignment: CrossAxisAlignment.start,
-                    //           children: [
-                    //             Text.rich(TextSpan(children: [
-                    //               TextSpan(
-                    //                 text: "Deliver at : ",
-                    //               ),
-                    //               TextSpan(
-                    //                   text: "Home",
-                    //                   style: TextStyle(
-                    //                     fontWeight: FontWeight.bold,
-                    //                   ))
-                    //             ])),
-                    //             Text(
-                    //               "1633 Hampton Meadows, Lexington",
-                    //             )
-                    //           ],
-                    //         ),
-                    //       ),
-                    //       Center(
-                    //         child: Text(
-                    //           "Change",
-                    //           style: TextStyle(
-                    //               fontWeight: FontWeight.w700,
-                    //               fontSize: 13,
-                    //               color: Colors.red),
-                    //         ),
-                    //       )
-                    //     ],
-                    //   ),
-                    // ),
                     Container(
                       height: 260,
                       child: Column(
